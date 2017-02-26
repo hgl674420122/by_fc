@@ -1,0 +1,81 @@
+body{ margin:0 auto; padding: 0; font-family: Arial,sans-serif; color: #444; background:#dadada}
+*{ margin:0 auto; padding:0;}
+body{ background:url(../img/bg.jpg) repeat top center;}
+font{ font-family:Verdana, Geneva, sans-serif; font-weight:bolder; color:#FFF; font-size:36px;}
+p{ font-size:9px; color:#FFF} 
+#container{ width:960px; background:url(../img/top.png) no-repeat top center;}
+/*header部分*/
+#header{ width:960px; height:108px; /*background:#F00*/margin-top:20px;}
+#header .left{ width:494px; height:83px; /*background:#F00;*/ float:left; }
+#header .left .country{ width:243px; height:13px; background:url(../img/flags.png); float:left}
+#header .right{ width:324px; height:86px; /*background:#0F0;*/ float:right}
+#header .right .login{ width:84px; height:18px; background:#090; }
+#header .right .biaozhi{ width:84px; height:41px; /*background:url(../img/logo2.png);*/}
+/*content部分*/
+#menu{ width:960px; height:45px;position:relative; z-index:1; }
+#menu .nav{ width:960px; height:45px; background:#c22222;  }
+#menu .nav li{  float:left; height:45px; list-style:none; line-height:45px; }
+.fix{ width:85px;}
+#menu .nav li a{padding:0 23px; text-decoration:none; color:#FFF;display:block;  font-size:18px;}
+#menu .nav li:hover{ background:#000;}
+
+#bar{ width:150px; height:auto; display:none; opacity:0.9;  position:relative; z-index:0;  }
+#bar li{ width:auto; height:45px; list-style:none; line-height:45px; background:#000; }
+#bar li a:hover{ color:#F00; }
+#menu .nav li:hover #bar{ display:block;}
+
+/*main部分*/
+#main{ width:960px; height:2832px; background:#FF0; }
+/*轮转*/
+.banner{width:960px; height:450px;  position: relative; overflow:hidden; /*background:#000 */  }
+.A{width:4800px; height:450px; position: absolute ;top: 0; left: 0; animation: donghua 20s infinite;}
+.A li{width:960px; height:450px; list-style-type:none; float:left; position:relative;}
+.banner .A li:nth-child(1){background: url(../img/1.jpg); no-repeat center; background-size: cover;}
+.banner .A li:nth-child(2){background: url(../img/2.jpg); no-repeat center; background-size: cover;}
+.banner .A li:nth-child(3){background: url(../img/3.jpg); no-repeat center; background-size: cover;}
+.banner .A li:nth-child(4){background: url(../img/4.jpg); no-repeat center; background-size: cover;}
+.banner .A li:nth-child(5){background: url(../img/5.jpg); no-repeat center; background-size: cover;}
+@-webkit-keyframes donghua{
+				0{left: 0;}
+				20%{left: 0;}
+				21%{left: -100%;}
+				40%{left: -100%;}
+				41%{left: -200%;}
+				60%{left: -200%;}
+				61%{left: -300%;}
+				80%{left: -300%;}
+				81%{left: -400%;}
+				100%{left: -400%;}
+				}
+#main .left_ad{position:absolute;left:-85px;top:200px; }
+#main .right_ad{position:fixed;right:35px;top:180px; height:639px; width:120px; }
+#main .progress{ width:960px; height:156px; }
+#main .progress .block{ width:470px; height:156px; /*background:#F00*/}
+#main .progress .block .shu{ width:300px; height:100px; /*background:#03C;*/ margin:5px 95px;}
+/* 左侧*/
+#main .left{ width:640px; height:1500px; background:#00F; float:left}
+#main .news{ width:640px; height:191px;  margin-top:20px;}
+#main .news a{ text-decoration:none; color:#FFF; font-size:24px}
+#main .news a:hover{ text-decoration:underline}
+/*右侧*/
+#main .right{ width:310px; height:1837px; background:#03C; float:right;}
+#main .advers{ width:310px; height:415px;position: relative; overflow:hidden; }
+.A1{width:930px; height:450px; position: absolute ;top: 0; left: 0; animation: action 10s infinite;}
+.A1 li{width:310px; height:450px; list-style-type:none; float:left; position:relative;}
+.advers .A1 li:nth-child(1){background: url(../img/ad1.jpg); no-repeat center; background-size: cover;}
+.advers .A1 li:nth-child(2){background: url(../img/ad2.jpg); no-repeat center; background-size: cover;}
+.advers .A1 li:nth-child(3){background: url(../img/ad3.jpg); no-repeat center; background-size: cover;}
+@-webkit-keyframes action{
+				0{left: 0;}
+				33%{left: 0;}
+				34%{left: -100%;}
+				66%{left: -100%;}
+				67%{left: -200%;}
+				99%{left: -200%;}
+                    }
+
+#cup{ width:960px; height:250px; background:#060}
+#content{ width:960px; height:480px; background:#F00}
+#shangbiao{ width:960px; height:225px; background:#060}
+#footer{ width:960px; height:233px; background:#FFF}
+#last{ width:960px; height:74px; background:#060}

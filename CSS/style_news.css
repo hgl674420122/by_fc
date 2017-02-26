@@ -1,0 +1,24 @@
+#content{ width:960px; height:1100px; background:#FFF; }
+.wenzi{ font-size:70px; color:#FFF; width:960px; height:80px;  text-align:center; font-family:Georgia, "Times New Roman", Times, serif}
+/*下导航栏*/
+#content .xiadaohang{ width:960px; height:45px;position:relative; z-index:0; }
+#content .xiadaohang .nav{ width:960px; height:45px; background:#1d1d1d;  }
+#content .xiadaohang .nav li{  float:left; height:45px; list-style:none; line-height:45px; }
+.fix{ width:85px;}
+#content .xiadaohang .nav li a{padding:0 23px; text-decoration:none; color:#FFF;display:block;  font-size:18px;}
+#content .xiadaohang .nav li:hover{ text-decoration:underline; color:#FFF}
+
+#content .wapper{ width:960px; height:45px; background:#FFF; text-align:center; line-height:45px;}
+#content .font{ color:#999}
+/*news中的list菜单*/
+#content .list{ width:900px; height:159px; padding-top:20px; background:#FFF; border-top:#dbdada thin solid; margin-top:20px;}
+#content .list .box{ width:81px; height:71px; float:left; background:#f2f1f1; text-align:center; color:#000;}
+#content .list .box:hover .box2{ background:#F00}
+#content .list .box1{ width:800px; height:159px; background:#00C; float:right}
+.box1 p{ width:auto; height:auto}
+#content .list .box2{ width:517px; height:159px; background:#FFF; float:right}
+#content .list .box2 a{ color:#000; text-decoration:none; font-family:"微软雅黑"}
+#content .list .box1 a:hover{ color:#F00; }
+#content .ff1{ font-size:10px;  margin-top:20px; margin-left:30px; }
+#content .ff2{ font-size:24px;  margin-top:20px;margin-left:30px; }
+#content .ff3{ font-size:10px;  margin-top:20px;margin-left:30px; }
